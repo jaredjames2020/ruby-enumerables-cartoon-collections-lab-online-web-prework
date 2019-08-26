@@ -18,54 +18,8 @@ def long_planeteer_calls(calls)
     end
 end
 
-def find_the_cheese(food)
-  food.find do |num|
-    num == "cheddar" || num == "gouda" || num == "camembert"
+def find_the_cheese(cheese)
+  cheese.find do |x|
+    x == "cheddar" || x == "gouda" || x == "camembert"
   end 
 end
-
-#array_of_food_items.find { |food_item| cheese_types.include?(food_item) }
-  
-  #cheese.map do |x| 
-  #  if cheese_types.include?(x)
-   #   return x
-   # elsif cheese_types.exclude?(x) 
-    #  return nil
-  #  end
-  #end
-#end
-#find_the_cheese(["boat","car"])
-
-#animals.any?{|x| mammals.include?(x)} # true
-#mammals.any?{|x| sea_creatures.include?(x)} # false
-
-
-#def find_the_cheese(cheese)
-  # the array below is here to help
-#  cheese_types = ["cheddar", "gouda", "camembert"]
-#  cheese.map do |x| 
-#    if cheese_types.include?(x)
-#      return x
-#    else
-#      return nil
-#    end
-#  end
-#end
-#find_the_cheese(["boat","car"])
-
-
-
-#cheese_types = ["cheddar", "gouda", "camembert"]
-#cheese = ["camembert","boat","spaceship","gouda", "comb", "cheddar"]
-#cheese.map do |x| 
-#  if cheese_types.include?(x)
-#    p x
-#    break
-#  end
-#end
-
-
-#def find_the_cheese# code an argument here
-  # the array below is here to help
- # cheese_types = ["cheddar", "gouda", "camembert"]
-#end
